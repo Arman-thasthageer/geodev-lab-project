@@ -1,0 +1,297 @@
+# Week 3 — Data Preparation and Quality Notes
+
+## Project
+
+Which settlements in Villupuram district, Tamil Nadu, are more than 5 km by road from the nearest public health facility?
+
+---
+
+## 1. Coordinate Reference System
+
+**Working CRS:** EPSG:32644 — WGS 84 / UTM Zone 44N
+
+**Reason for selection:** The Villupuram study area is located within UTM Zone 44N, and a projected coordinate system is required for distance and network analysis using metres/kilometres.
+
+The original datasets were not all in the same coordinate reference system:
+
+- Villupuram boundary: Custom Lambert Conformal Conic CRS
+- Roads: EPSG:4326
+- Health facilities: EPSG:4326
+- Settlements: EPSG:4326
+
+The datasets were **reprojected** to EPSG:32644. The original CRS was not simply assigned or overwritten.
+
+---
+
+## 2. Villupuram District Boundary
+
+**Source:** Tamil Nadu GIS (TNGIS)
+
+**Original features:** 1
+
+**Original CRS:** Custom Lambert Conformal Conic CRS
+
+**Final CRS:** EPSG:32644
+
+**Final features:** 1
+
+**Geometry:** MultiPolygon
+
+**Output:**
+
+`data/processed/villupuram_boundary_utm44.gpkg`
+
+**Quality observations:**
+
+- Null geometries: 0
+- Empty geometries: 0
+- Invalid geometries: 0
+- 1 valid study-area feature is present.
+
+**Processing:** The district boundary was reprojected to EPSG:32644 and saved as an analysis-ready GeoPackage.
+
+---
+
+## 3. OSM Road Network
+
+**Source:** OpenStreetMap
+
+**Original features:** 9,431
+
+**Original CRS:** EPSG:4326
+
+**Final CRS:** EPSG:32644
+
+**Final features:** 9,431
+
+**Geometry:** MultiLineString
+
+**Output:**
+
+`data/processed/roads_utm44_clipped.gpkg`
+
+**Quality observations:**
+
+- Null geometries: 0
+- Empty geometries: 0
+- Invalid geometries: 0
+- 9,431 road features remained after clipping.
+
+Several optional OSM attributes contain missing values, including fields related to network, source, bus, path and road characteristics.
+
+**Processing:** The road network was reprojected to EPSG:32644 and clipped to the Villupuram study area.
+
+**Limitation:** OpenStreetMap road coverage and attributes may not be complete for every location.
+
+---
+
+## 4. OSM Health Facilities
+
+**Source:** OpenStreetMap
+
+**Original features:** 179
+
+**Original CRS:** EPSG:4326
+
+**Final CRS:** EPSG:32644
+
+**Final features:** 169
+
+**Geometry:** Point
+
+**Output:**
+
+`data/processed/health_facilities_utm44_clipped.gpkg`
+
+**Quality observations:**
+
+- Null geometries: 0
+- Empty geometries: 0
+- Invalid geometries: 0
+- 10 features were outside the study boundary and were removed during clipping.
+- 169 health-facility features remain inside the study area.
+
+Several optional attributes contain missing values, including designation, emergency, phone, operator, opening hours and website.
+
+**Processing:** Health-facility features were reprojected to EPSG:32644 and clipped to the Villupuram study boundary.
+
+**Limitation:** OpenStreetMap health-facility coverage may not represent every facility in the study area.
+
+---
+
+## 5. OSM Settlements
+
+**Source:** OpenStreetMap
+
+**Original features:** 124
+
+**Original CRS:** EPSG:4326
+
+**Final CRS:** EPSG:32644
+
+**Final features:** 124
+
+**Geometry:**
+
+- Point: 118
+- Polygon: 6
+
+**Output:**
+
+`data/processed/settlements_utm44_clipped.gpkg`
+
+**Quality observations:**
+
+- Null geometries: 0
+- Empty geometries: 0
+- Invalid geometries: 0
+- 31 settlement records have no name.
+- 121 settlement records have no population value.
+
+**Processing:** Settlement features were reprojected to EPSG:32644 and clipped to the Villupuram study area.
+
+**Limitation:** Population information is largely unavailable in the OSM settlement layer, so the Census population dataset may need to be used separately during later analysis.
+
+---
+
+# 6. Five Data Quality Checks
+
+## 6.1 Completeness
+
+The four processed datasets were checked for feature presence and geometry completeness.
+
+| Dataset | Features | Null geometry | Empty geometry |
+|---|---:|---:|---:|
+| Villupuram Boundary | 1 | 0 | 0 |
+| Roads | 9,431 | 0 | 0 |
+| Health Facilities | 169 | 0 | 0 |
+| Settlements | 124 | 0 | 0 |
+
+The health-facility dataset originally contained 179 features, with 10 outside the Villupuram study boundary. These were removed during clipping.
+
+**Finding:** The processed datasets contain valid spatial features, but OpenStreetMap coverage should not be assumed to be complete.
+
+---
+
+## 6.2 Currency
+
+The available GeoPackage attributes do not provide a complete dataset-wide update date.
+
+### Roads
+
+The `check_date` field contains:
+
+- 2 records dated 2025-01-19
+- 2 records dated 2024-04-03
+- 9,427 records without a value
+
+### Health Facilities
+
+The `check_date` field contains:
+
+- 1 record dated 2023-09-03
+- 1 record dated 2024-04-03
+- 167 records without a value
+
+### Settlements
+
+No obvious dataset-wide update/date field was available.
+
+**Finding:** The overall currency of the datasets cannot be established from the available attributes. This limitation is therefore flagged rather than assuming that all features are current.
+
+---
+
+## 6.3 Positional Accuracy
+
+The processed layers were checked for geometry validity.
+
+Results:
+
+- Boundary: 0 invalid geometries
+- Roads: 0 invalid geometries
+- Health facilities: 0 invalid geometries
+- Settlements: 0 invalid geometries
+
+There were also no null or empty geometries.
+
+**Finding:** The geometries are structurally valid for GIS processing. However, geometry validity does not prove positional accuracy. Positional alignment should be checked against reliable imagery or reference data before making a strong positional-accuracy claim.
+
+---
+
+## 6.4 Attribute Accuracy
+
+The datasets contain varying levels of attribute completeness.
+
+### Roads
+
+Several optional OSM fields contain missing values.
+
+### Health Facilities
+
+Several optional fields such as designation, phone, operator, opening hours and website contain missing values.
+
+### Settlements
+
+- 31 records have no settlement name.
+- 121 records have no population value.
+
+Some duplicate non-geometry attribute rows were also detected in the road and settlement datasets. These were not automatically removed because different spatial features can legitimately have identical attribute values.
+
+**Finding:** Attribute completeness is variable, particularly for optional OpenStreetMap fields. Missing attributes are flagged as limitations for later analysis.
+
+---
+
+## 6.5 Fitness for Purpose
+
+The prepared datasets provide the main spatial information required for the planned healthcare accessibility analysis:
+
+- Villupuram district boundary
+- Settlement locations
+- Health-facility locations
+- Road network
+- Common projected CRS for spatial analysis
+
+The analysis-ready datasets are therefore suitable for the planned preliminary road-accessibility analysis.
+
+However, the following limitations must be considered:
+
+1. OpenStreetMap coverage may be incomplete.
+2. Some OSM attributes contain missing values.
+3. Population information is largely unavailable in the OSM settlement layer.
+4. Dataset-wide currency cannot be established from the available fields.
+5. Positional accuracy has not been independently validated against ground-truth/reference data.
+
+---
+
+# 7. Analysis-Ready Files
+
+The Week 3 processed files are stored in:
+
+`data/processed/`
+
+Files:
+
+- `villupuram_boundary_utm44.gpkg`
+- `roads_utm44_clipped.gpkg`
+- `health_facilities_utm44_clipped.gpkg`
+- `settlements_utm44_clipped.gpkg`
+
+All four datasets use:
+
+**EPSG:32644 — WGS 84 / UTM Zone 44N**
+
+---
+
+# Week 3 Summary
+
+The spatial datasets were inspected and prepared for analysis by reprojecting them to a common projected coordinate system, clipping the relevant datasets to the Villupuram study area, checking geometry validity, and saving the results as analysis-ready GeoPackages.
+
+The five required quality checks were completed:
+
+1. Completeness
+2. Currency
+3. Positional accuracy
+4. Attribute accuracy
+5. Fitness for purpose
+
+Known data limitations were documented rather than hidden or automatically removed.
