@@ -1,0 +1,322 @@
+# Month 1 Summary — GeoDev Lab Africa
+
+## Project Title
+
+### Healthcare Accessibility Analysis in Villupuram District, Tamil Nadu
+
+**Project Question:**
+
+> Which settlements in Villupuram district, Tamil Nadu, are more than 5 km by road from the nearest public health facility?
+
+---
+
+## 1. Project Overview
+
+This project was developed throughout Month 1 of the GeoDev Lab Africa programme.
+
+The aim is to investigate healthcare accessibility in Villupuram district, Tamil Nadu, by combining settlement locations, public health facilities, road-network data, and population information.
+
+The project started with a clearly defined spatial question and progressed through data collection, data documentation, coordinate-system preparation, quality assessment, and vector analysis in QGIS/Python.
+
+The Month 1 workflow demonstrates how a GIS question can be developed into a structured, analysis-ready project.
+
+---
+
+# Week 1 — Defining the Question
+
+## Question
+
+> Which settlements in Villupuram district, Tamil Nadu, are more than 5 km by road from the nearest public health facility?
+
+## Why this question matters
+
+Access to healthcare can vary between settlements depending on their location, available health facilities, and road connectivity.
+
+Identifying settlements that are more than 5 km by road from the nearest public health facility can help highlight locations that may require further investigation of healthcare accessibility and transportation connectivity.
+
+## Data identified
+
+The project requires:
+
+1. Villupuram district boundary
+2. Settlement locations
+3. Public health facilities
+4. Road network
+5. Population data
+
+## Main data sources
+
+- Tamil Nadu GIS (TNGIS) — district boundary
+- OpenStreetMap — settlements, health facilities and road information
+- Census of India 2011 — population information
+
+The detailed Week 1 project brief and source links are available in:
+
+[`project-brief.md`](project-brief.md)
+
+---
+
+# Week 2 — Data Collection and Documentation
+
+During Week 2, real spatial datasets were collected and opened for the project.
+
+OpenStreetMap data was obtained using Python and OSMnx. Census population data was also downloaded from the Census of India.
+
+## Data collected
+
+### Villupuram Boundary
+
+- Source: Tamil Nadu GIS
+- Features: 1
+- Used to define the study area.
+
+### Settlements
+
+- Source: OpenStreetMap
+- Features: 124 in the current prepared dataset
+- Geometry: 118 Point and 6 Polygon
+
+### Health Facilities
+
+- Source: OpenStreetMap
+- Original features: 179
+- Later clipped to the Villupuram study area.
+
+### Road Network
+
+- Source: OpenStreetMap
+- Features: 9,431 in the prepared road dataset.
+
+### Census Population
+
+- Source: Census of India 2011
+- File: `DDW_PCA3306_2011_MDDS with UI.xlsx`
+- Rows: 1,867
+- Columns: 94
+
+The detailed Week 2 data documentation is available in:
+
+[`data-notes.md`](data-notes.md)
+
+---
+
+# Week 3 — Data Preparation and Quality Assessment
+
+The datasets were prepared for spatial analysis using a common projected coordinate reference system.
+
+## Working CRS
+
+**EPSG:32644 — WGS 84 / UTM Zone 44N**
+
+This projected CRS was selected so that distances and areas could be calculated using metre-based coordinates for the Villupuram study area.
+
+The datasets were reprojected and clipped to the study boundary where appropriate.
+
+## Analysis-ready datasets
+
+The following GeoPackages were produced:
+
+- `villupuram_boundary_utm44.gpkg`
+- `roads_utm44_clipped.gpkg`
+- `health_facilities_utm44_clipped.gpkg`
+- `settlements_utm44_clipped.gpkg`
+
+## Prepared dataset summary
+
+| Dataset | Features | Geometry |
+|---|---:|---|
+| Villupuram boundary | 1 | MultiPolygon |
+| Roads | 9,431 | MultiLineString |
+| Health facilities | 169 | Point |
+| Settlements | 124 | Point / Polygon |
+
+All four prepared datasets use **EPSG:32644**.
+
+No null, empty, or invalid geometries were detected in the final prepared datasets.
+
+## Five quality checks
+
+The five quality checks used were:
+
+1. **Completeness**
+2. **Currency**
+3. **Positional accuracy**
+4. **Attribute accuracy**
+5. **Fitness for purpose**
+
+### Completeness
+
+The datasets were checked for feature counts, geometry presence and missing information.
+
+Ten health-facility features were outside the study boundary and were removed during clipping, leaving 169 facilities inside the study area.
+
+### Currency
+
+The available data did not provide sufficient update information to establish the currency of the entire dataset. This limitation was therefore flagged.
+
+### Positional accuracy
+
+The geometries were checked for null, empty and invalid features. All final datasets passed these structural checks.
+
+However, positional accuracy was not independently validated against authoritative survey data or imagery, so this limitation was recorded.
+
+### Attribute accuracy
+
+Missing optional OpenStreetMap attributes were identified, particularly for roads and health facilities.
+
+These missing values were documented rather than automatically treated as geometry errors.
+
+### Fitness for purpose
+
+The prepared datasets are suitable as a starting point for a preliminary healthcare-accessibility analysis.
+
+However, OpenStreetMap coverage, missing attributes, population availability, dataset currency and positional accuracy should be considered when interpreting the final results.
+
+The detailed Week 3 quality documentation is available in:
+
+[`week3-data-notes.md`](week3-data-notes.md)
+
+---
+
+# Week 4 — Vector Analysis
+
+Week 4 introduced vector analysis operations including:
+
+- Buffer
+- Dissolve/Union
+- Intersection
+- Spatial Join
+- Layer styling
+- Spreadsheet/table integration
+
+The analysis was continued using the Villupuram healthcare-accessibility project.
+
+## 5 km Health Facility Buffer
+
+A 5 km buffer was created around the mapped health facilities.
+
+The buffer was performed using the projected **EPSG:32644** dataset so that the distance was measured in metres.
+
+The 5 km buffer represents **straight-line spatial coverage**.
+
+It does not represent road-network travel distance.
+
+## Union
+
+The individual health-facility buffers were combined into a unified coverage area.
+
+## Intersection
+
+The coverage area was intersected with the Villupuram study boundary to keep the analysis within the project area.
+
+## Spatial Join
+
+The settlement layer was spatially joined with the 5 km health-facility coverage area.
+
+This allowed settlements to be classified according to whether they fall inside or outside the 5 km straight-line coverage area.
+
+## Week 4 outputs
+
+The Week 4 analysis outputs are stored in:
+
+`data/week4/`
+
+Expected outputs include:
+
+- `health_facilities_5km_buffer.gpkg`
+- `health_5km_union.gpkg`
+- `health_5km_intersection_boundary.gpkg`
+- `settlements_5km_access.gpkg`
+- `settlements_outside_5km.gpkg`
+- `week4_healthcare_accessibility_map.png`
+
+---
+
+# Month 1 Result
+
+The Month 1 analysis established a complete GIS workflow for investigating healthcare accessibility in Villupuram district.
+
+The prepared datasets contain:
+
+- **1** Villupuram study-area boundary
+- **9,431** road features
+- **169** mapped health facilities within the study area
+- **124** mapped settlements
+
+The Week 4 analysis identifies settlements based on their location relative to a **5 km straight-line buffer around mapped health facilities**.
+
+This provides an initial spatial assessment of healthcare coverage.
+
+### Important limitation
+
+The original project question refers to **5 km by road**.
+
+The Week 4 buffer analysis measures **straight-line distance**, not road-network distance.
+
+Therefore, the Week 4 result should not be interpreted as the final road-distance answer to the project question.
+
+A later network analysis using the prepared road network is required to determine which settlements are actually more than 5 km **by road** from their nearest health facility.
+
+---
+
+# Month 1 Learning
+
+Through this project, I worked through the complete initial GIS workflow:
+
+1. Define a spatial question.
+2. Identify the data required.
+3. Obtain real spatial data.
+4. Document data sources and characteristics.
+5. Inspect coordinate reference systems.
+6. Reproject data into an appropriate projected CRS.
+7. Clip data to the study area.
+8. Check data quality.
+9. Create buffers.
+10. Perform union and intersection.
+11. Perform spatial joins.
+12. Produce an analysis map.
+13. Organise the project into a reproducible GitHub repository.
+
+The project also reinforced the relationship between GIS software workflows and future Python-based geospatial automation.
+
+---
+
+# Tools Used
+
+- QGIS
+- Python
+- GeoPandas
+- OSMnx
+- OpenStreetMap
+- Tamil Nadu GIS
+- Census of India
+- GeoPackage
+- GitHub
+
+---
+
+# Project Structure
+
+```text
+geodev-lab-project/
+│
+├── README.md
+├── project-brief.md
+├── data-notes.md
+├── week3-data-notes.md
+├── month-1-summary.md
+│
+└── data/
+    ├── processed/
+    │   ├── villupuram_boundary_utm44.gpkg
+    │   ├── roads_utm44_clipped.gpkg
+    │   ├── health_facilities_utm44_clipped.gpkg
+    │   └── settlements_utm44_clipped.gpkg
+    │
+    └── week4/
+        ├── health_facilities_5km_buffer.gpkg
+        ├── health_5km_union.gpkg
+        ├── health_5km_intersection_boundary.gpkg
+        ├── settlements_5km_access.gpkg
+        ├── settlements_outside_5km.gpkg
+        └── week4_healthcare_accessibility_map.png
