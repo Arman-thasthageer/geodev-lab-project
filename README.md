@@ -40,3 +40,22 @@ Pandas version: 3.0.6
 **Outcome:** Successfully configured a reproducible Python project environment with `uv`, installed pandas, and verified the installation by printing its version.
 
 **Note:** The `.venv` directory is kept locally and is not uploaded to GitHub.
+### Week 7: Python Programming and Ward Analysis
+
+**Objective:** Apply Python fundamentals to read ward data from a CSV file and classify wards as large or small.
+
+**Tasks completed:**
+- Created `wards.csv` containing ward names and population values.
+- Created `analyse.py` to read and analyse the CSV data.
+- Practised variables, data types, loops, conditions, lists, and functions.
+- Executed the program using the `uv` project environment.
+- Verified that the program successfully classified the sample wards.
+
+**Files:**
+- `wards.csv`
+- `analyse.py`
+- `screenshots/week7.png`
+
+**Outcome:** Successfully built and executed a Python program that reads ward population data and classifies each ward using a population threshold.
+
+**Note:** The current implementation uses sample ward data and a threshold of 10,000 people. The dataset and classification rule should match the official Week 7 learning pack before final submission.
