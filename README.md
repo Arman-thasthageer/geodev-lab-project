@@ -59,3 +59,32 @@ Pandas version: 3.0.6
 **Outcome:** Successfully built and executed a Python program that reads ward population data and classifies each ward using a population threshold.
 
 **Note:** The current implementation uses sample ward data and a threshold of 10,000 people. The dataset and classification rule should match the official Week 7 learning pack before final submission.
+### Week 8: Python, Files and Data Inspection
+
+**Objective:** Practise reading CSV data and generating summary statistics for numeric columns using Python and pandas.
+
+**Tasks completed:**
+- Created `mydata.csv` containing practice data with two numeric columns: `depth` and `yield`.
+- Created `inspect_data.py` to read the CSV dataset using pandas.
+- Calculated summary statistics for both numeric columns, including count, mean, minimum, and maximum.
+- Printed the summary results as Python dictionaries.
+- Executed the program successfully using the existing `uv` project environment.
+
+**Verification output:**
+
+```text
+WEEK 8: DATA INSPECTION
+Dataset: mydata.csv
+
+{'column': 'depth', 'count': 5, 'mean': 13.38, 'min': 8.7, 'max': 20.1}
+{'column': 'yield', 'count': 5, 'mean': 142.0, 'min': 95.0, 'max': 210.0}
+```
+
+**Files:**
+- `mydata.csv`
+- `inspect_data.py`
+- `screenshots/week8.png`
+
+**Outcome:** Successfully read a CSV dataset, inspected two numeric columns, calculated summary statistics, and displayed the results using Python dictionaries.
+
+**Note:** The dataset contains illustrative practice values and does not represent actual field measurements.
