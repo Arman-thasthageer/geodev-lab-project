@@ -88,3 +88,19 @@ Dataset: mydata.csv
 **Outcome:** Successfully read a CSV dataset, inspected two numeric columns, calculated summary statistics, and displayed the results using Python dictionaries.
 
 **Note:** The dataset contains illustrative practice values and does not represent actual field measurements.
+### Week 9: Consolidation and Refactoring
+
+**Objective:** Consolidate Python skills by organising CSV reading and data analysis into reusable functions.
+
+**Tasks completed:**
+- Created `summary.py` with three functions: `read_data()`, `summarise_column()`, and `summarise_all()`.
+- Read the practice dataset using pandas.
+- Calculated the count, smallest value, largest value, and average for each numeric column.
+- Used `summarise_all()` to process and display summaries for all numeric columns.
+- Successfully executed the program using the existing `uv` project environment.
+
+**Files:**
+- `summary.py`
+- `screenshots/week9.png`
+
+**Outcome:** Successfully refactored the data inspection workflow into reusable Python functions and generated summary statistics for multiple numeric columns.
