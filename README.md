@@ -104,3 +104,8 @@ Dataset: mydata.csv
 - `screenshots/week9.png`
 
 **Outcome:** Successfully refactored the data inspection workflow into reusable Python functions and generated summary statistics for multiple numeric columns.
+
+### Month 3 – Week 10: GeoPandas and Spatial Data Analysis
+
+- Applied GeoPandas to actual Villupuram data: 169 health facilities, 9,431 roads, 124 settlements and 5 km straight-line coverage analysis.
+- Detailed work: [Week 10 README](month-03/week-10/README.md).

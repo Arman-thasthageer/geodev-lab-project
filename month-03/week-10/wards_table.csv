@@ -1,0 +1,125 @@
+name,place,population,index_right,buffer_5km,zone,within_5km,access_status
+Pakkam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Nettapakkam,town,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Kondur,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Kalmandapam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Pallinaliyanur,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Kandamangalam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Valavanur,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,town,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Valudavur,village,,,,,False,Outside 5 km
+Pallithennal,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Kottakuppam,town,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Thandiriyan Kuppam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Kotamedu,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Chinna Mudaliar Chavadi,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Morattandi,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Periya Mudaliar Chavadi,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Kuilapalayam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Bommayapalayam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Edayanchavadi,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Tiruchitrambalam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Irumbai,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Auroville,town,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Kottakarai,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Vanur,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Kilputhupattu,village,,,,,False,Outside 5 km
+Mudailar Kuppam,village,,,,,False,Outside 5 km
+Soolayuthamman,village,,,,,False,Outside 5 km
+Koonimedu,village,,,,,False,Outside 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Radhapuram,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Ranganathapuram,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Palappattu,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Chendur,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Nedi,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Mailam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Pachinamedu,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Chettinagar,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Kiliyanur,village,,,,,False,Outside 5 km
+Anumanthai Kuppam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Anumandai,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Keelpettai,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Ekkiar Kuppam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Marakkanam,town,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Murukkeri,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Marakkanam,village,,,,,False,Outside 5 km
+Velangampadi,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Nedimoliyanur,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Chinnanerkunam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Kutteripattu,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Tindivanam,town,10000,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,town,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Saram,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Ongur,village,,,,,False,Outside 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Panjamadevi,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Kolliyanur,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Viluppuram,town,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Mundiyambakkam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Orathur,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Vazapattu,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Surapattu,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Panayapuram,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Thumbur,hamlet,,,,,False,Outside 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Kanai,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Mambalapattu,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Ayandur,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Mugaiyur,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Manampoondi,village,,,,,False,Outside 5 km
+Devanur,hamlet,,,,,False,Outside 5 km
+,town,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Kedar,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,,,,False,Outside 5 km
+Vikravandi,town,,,,,False,Outside 5 km
+,village,,,,,False,Outside 5 km
+,village,,,,,False,Outside 5 km
+KR palaiyam,village,,,,,False,Outside 5 km
+MELKARANAI,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Nemur,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+E.Mandagapattu,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Periyathachur,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Echchanguppam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Esalam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Veerangipuram,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Kandachipuram,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Veerapandi,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,town,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Muttatur,village,5000,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Brahmadesam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Brammadesam,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Ennayiram,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Thirunandipuram,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Pidaripattu,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Ottampattu,hamlet,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Pallapattu,hamlet,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Deevanur,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,,,,False,Outside 5 km
+,village,,,,,False,Outside 5 km
+Gengavaram,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Appampattu,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Nayampadi,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Alampoondi,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Gingee,town,50000,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Avalurpet,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+Melmalaiyanur,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,village,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km
+,hamlet,,0.0,5000.0,Combined 5 km health-facility coverage,True,Within 5 km

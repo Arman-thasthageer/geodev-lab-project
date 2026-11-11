@@ -1,0 +1,170 @@
+element,id,amenity,designation,emergency,name,addr:district,addr:full,addr:postcode,addr:state,healthcare,source,addr:block,addr:city,addr:street,check_date,phone,operator,operator:type,operator:wikidata,description,addr:subdistrict,operator:wikipedia,opening_hours,addr:housename,name:ta,name:etymology:wikidata,website,short_name,addr:suburb,building,wikidata,type,name:hi,name:ml,wikipedia,x_utm44,y_utm44
+node,7262595384,,,,Rampakkam PHC,Viluppuram,"Rampakkam PHC, Near Indian Bank, Rampakkam, Pattampakkam Main Road",605106,Tamil Nadu,centre,OpenGovernmentData,Kandamangalam,,,,,,,,Primary Health Centre,,,,,,,,,,,,,,,,348792.4636674695,1308912.2664658022
+node,8204107132,,,,"SubCentre, Panayadikuppam",Karaikal,Panayadikuppam,605106,Puducherry,centre,Local Knowledge,,,,,,,,,SubCentre,,,,,,,,,,,,,,,,352888.4391039262,1309668.4169552368
+node,6237488013,,,,abishekapakkam phc,,,,,centre,,,,,,,,,,,,,,,,,,,,,,,,,,349811.99421036977,1312067.8377700495
+node,6237460570,,,,madukarai phc,,,,,centre,,,,,,,,,,,,,,,,,,,,,,,,,,344271.7680745678,1312693.874073062
+node,7262595426,hospital,,,"Government Hospital, Siruvanthadu",Viluppuram,"Siruvanthadu,CHC, Siruvanthadu, Panchamadevi St, Siruvanthadu.",605105,Tamil Nadu,,OpenGovernmentData,Kandamangalam,,,,,,,,,,,,,,,,,,,,,,,,345406.29916816804,1312853.135360247
+node,6237476453,,,,thirubhuvanai phc,,,,,centre,,,,,,,,,,,,,,,,,,,,,,,,,,344823.00096898526,1318655.7490088122
+node,6237460576,,,,ariyur phc,,,,,centre,,,,,,,,,,,,,,,,,,,,,,,,,,346301.5346464927,1318719.0873186262
+node,7262595329,,,,"PHC, Kolianur",Viluppuram,"Kolianur, Viluppuram, Nehruji Road",605103,Tamil Nadu,centre,OpenGovernmentData,Koliyanur,,,,,,,,Primary Health Centre,,,,,,,,,,,,,,,,341440.0695668244,1318998.154235258
+node,5234891449,hospital,,,rajaram hospital,,,,,hospital,,,,,,,,,,,,,,,,,,,,,,,,,,336429.27579291316,1320138.2528235011
+node,3979120937,hospital,,,Maragatham Hospital,Viluppuram,"Near To Gandthi Statue, Villupuram, Nehruji Road,Villupuram",605602,Tamil Nadu,hospital,OpenGovernmentData,,,,2023-09-03,+91 4146 225 456; +91 4146 225 457,,,,,,,,,,,,,,,,,,,,336193.2730525559,1320494.7105394036
+node,7825220365,hospital,,,Devaki Hospital,Viluppuram,"Chairman Chidam, K K Nagar",605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335301.0786584707,1320364.4093952319
+node,5235085831,hospital,,,thamothiran,,,,,hospital,,,,,,,,,,,,,,,,,,,,,,,,,,335215.1307132029,1320370.7306203712
+node,5235085842,hospital,,,sumathi hospital,,,,,hospital,,,,,,,,,,,,,,,,,,,,,,,,,,335290.21427193045,1320371.481821148
+node,5235085841,hospital,,,ashvini hospital,,,,,hospital,,,,,,,,,,,,,,,,,,,,,,,,,,335283.8515593989,1320383.131298145
+node,3983676958,hospital,,,Aswini Hospital,Viluppuram,"Nh45A, Thiru Vi Ka Street, Viluppuram",605602,Tamil Nadu,hospital,OpenGovernmentData,,,,,,,,,,,,,,,,,,,,,,,,,335499.84551895794,1320399.6948984745
+node,7825220319,clinic,,,KM Child Clinic,Viluppuram,,605602,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335697.19544825424,1320464.899984686
+node,7825220362,hospital,,,Dr. Jothy Mother Care Hospital,Viluppuram,Selva Nagar,605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335287.0231651338,1320507.1038459789
+node,7825220357,hospital,,,Link Hospital,Viluppuram,,605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335942.5717309758,1320524.9003198014
+node,7262595341,clinic,,,Karpagam Nursing Home,Viluppuram,"Municipal Hr.Sec. School, Near Sankaramadam, Nawap Thop Lane",605602,Tamil Nadu,clinic,OpenGovernmentData,,,,,,,,,,,,,,,,,,,,,,,,,336154.94919794286,1320537.7603571396
+node,7825220347,hospital,,,Baby Hospital,Viluppuram,Thiru Vi Ka Street,605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335227.8071677247,1320559.6936836967
+node,7262595347,,,,"PHC, Kondur",Viluppuram,"Pakkam X Road, Thiru Vika Street, Kondur",605106,Tamil Nadu,centre,OpenGovernmentData,Kandamangalam,,,,,,,,Primary Health Centre,,,,,,,,,,,,,,,,355819.54021834437,1312232.1286170145
+node,7262595438,,,,"PHC, Kandamangalam",Viluppuram,"100 Feet Raod, Kandamangalam, Pondy Main Road",605102,Tamil Nadu,centre,OpenGovernmentData,Kandamangalam,,,,,,,,Primary Health Centre,,,,,,,,,,,,,,,,357598.7847271869,1317277.2547612388
+node,6237476455,,,,reddiyarpalayam phc,,,,,centre,,,,,,,,,,,,,,,,,,,,,,,,,,365317.9491604235,1321837.0438452775
+node,2376643531,clinic,,,Health Center,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,373889.44231660955,1323615.424300938
+node,7262595459,,,,"PHC, Kottaikuppam",Viluppuram,"Kottaikuppam Uhp, Mariyamman Back Siet, Kottaikuppam Uphc, Mariyamman Kovil St.",605101,Tamil Nadu,centre,OpenGovernmentData,,,,,,,,,Primary Health Centre,Vanur,,,,,,,,,,,,,,,373871.48707992164,1323623.5070853226
+node,1690133289,hospital,,,Auroville Health Center,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,373084.2407658669,1325391.5231897747
+node,12153902050,clinic,,,Sivasanthi Clinic,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,367246.8856655366,1326573.9798987892
+node,7825220354,,,,Rural Health Centre,Viluppuram,Villupuram,605109,Tamil Nadu,centre,Local Knowledge,,,,,,,,,Rural Health Centre,,,,,,,,,,,,,,,,365957.61163718486,1328758.7397109505
+node,7825220338,hospital,,,Dr. S Karthik Bhandary Hospital,Viluppuram,,605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,336239.05164467334,1320526.6731892119
+node,5167757500,hospital,,,meenakchi chandra sekar,,,,,hospital,,,,,,,,,,,,,,,,,,,,,,,,,,336178.66160958144,1320992.7498052528
+node,6237445828,,,,mannadipet chc,,,,,centre,,,,,,,,,,,,,,,,,,,,,,,,,,341933.7854673483,1321987.3555753066
+node,2444656038,hospital,,yes,"Goverment medical college & hospital, Villupuram",,,,,,,,Villupuram,Mundiyampakkam,,,,,,,,,,,,,,,,,,,,,,338587.3147188281,1326255.5926083415
+node,7262595376,,,,Radhapuram PHC,Viluppuram,"Kali Koil Near, Radhapuram, Karuamripettai",605501,Tamil Nadu,centre,OpenGovernmentData,Vikravandi,,,,,,,,Primary Health Centre,,,,,,,,,,,,,,,,346338.11553218367,1326926.8832019875
+node,7262595393,,,,Ponbur PHC,Viluppuram,"Nearest School, Pombur, Mailam Road",605602,Tamil Nadu,centre,OpenGovernmentData,,,,,,,,,Primary Health Centre,Vanur,,,,,,,,,,,,,,,347978.3898657846,1331405.2054994924
+node,7262595449,,,,Periathatchur PHC,Viluppuram,"Opp High School Street, Periyathachur, Anna Nagar Main Road",605651,Tamil Nadu,centre,OpenGovernmentData,Mailam,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,340485.3470334322,1338953.8736512666
+node,7262595381,,,,Chendur PHC,Viluppuram,"Opp E.B Office, Sendur, N.H.Road",604302,Tamil Nadu,centre,OpenGovernmentData,Mailam,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,346233.6390212249,1340825.1654808822
+node,7262595354,,,,"PHC, Mailam",Viluppuram,"Near State Bank Road, Mailam, Kooteripattu Street",604304,Tamil Nadu,centre,OpenGovernmentData,Mailam,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,349776.8825294728,1341192.9850480007
+node,7262801823,,,,"PHC, Nedimozhianur",Viluppuram,"Beside Ayyanarappan Temple, Rettanai road, Nedimozhiyanur",604302,Tamil Nadu,centre,OpenGovernmentData,Mailam,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,343274.26078951795,1343002.6251882561
+node,7262595395,hospital,,,"Government Hospital, Vanur",Viluppuram,"Sub-Divisional/Taluka Hospital, Vanur Ranganathapuram Main Road, Vanur, Pondy Mailam Road",605109,Tamil Nadu,,OpenGovernmentData,,,,,,,,,,Vanur,,,,,,,,,,,,,,,361531.38182729867,1329373.6678813966
+node,6237460573,,,,kalapet phc,,,,,centre,,,,,,,,,,,,,,,,,,,,,,,,,,361497.22892832826,1331304.7364224119
+node,7262595378,,,,"PHC, Kunnam",Viluppuram,"Karasanu Kunnam Main Road, Kunnam, Karasanu Sirunaor Main Road",604304,Tamil Nadu,centre,OpenGovernmentData,,,,,,,,,Primary Health Centre,Vanur,,,,,,,,,,,,,,,356037.6467609537,1336236.8772080159
+node,7262595409,,,,"PHC, Anumandhai",Viluppuram,"Anumandai, East Coast Rd",604303,Tamil Nadu,centre,OpenGovernmentData,Marakanam,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,382037.5149082171,1340906.0503070392
+node,7262595457,hospital,,,Government Hospital Uppuvellore,Viluppuram,"Pondy Tindivanam Main Road, Uppuvelur, Uppuvellore Main St.",604154,Tamil Nadu,,OpenGovernmentData,,,,,,,,,,Vanur,,,,,,,,,,,,,,,368450.66848404356,1341019.0870302161
+node,7262801895,hospital,,,"Government Hospital, Marakkanam",Viluppuram,"Santhai Thoppu, Murugan Temple, Karipalayam, Sannathi St",604303,Tamil Nadu,hospital,OpenGovernmentData,Marakanam,,,,,,,,,Tindivanam,,,,,,,,,,,,,,,385744.0774528184,1348616.2097750271
+node,7262801788,,,,"PHC, Bramadesam",Viluppuram,"Marakkanam Main Road, Bramadesam",604301,Tamil Nadu,centre,OpenGovernmentData,Marakanam,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,367409.32642499206,1349062.8016192678
+node,7262801783,,,,Murukkeri PHC,Viluppuram,"PHC Bus Stop, Murukkeri, Marakkanam Main Road",604301,Tamil Nadu,centre,OpenGovernmentData,Marakanam,,,,,,,,Primary Health Center,Tindivanam,,,,,,,,,,,,,,,374511.4448567068,1349568.475406293
+node,7262801873,,,,"PHC, Endaiyur",Viluppuram,Endiyur,604001,Tamil Nadu,centre,OpenGovernmentData,Marakanam,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,358525.1203067221,1350616.9884949005
+node,7825220325,hospital,,,Sri Ramachandra Dental Hospital,Viluppuram,Tindivanam,604001,Tamil Nadu,,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,354552.3630284359,1350967.6270386882
+node,5234261933,clinic,,,TSR Hospital,Villupuram,"#127, Thiru-Vi-Ka Road,Near Gandhi Statue",605602,Tamil Nadu,hospital,OpenGovernmentData,,,,2024-04-03,,,,,,,,,,,,,,,,,,,,,336160.3278911008,1320681.6867341686
+node,7825220360,hospital,,,Shivam Multispeciality Hospital,Viluppuram,,605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335468.33094139124,1321043.5320055312
+node,7825220391,clinic,,,Vasantham Health Center,Viluppuram,,605602,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335967.51406145666,1321107.2024229988
+node,7825220320,hospital,,,Malar Hospital,Viluppuram,Kamala Nagar,605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335609.9520782618,1321365.8581381224
+node,7262595445,,,,"PHC, Ennayiram",Viluppuram,"Rch Building, Near Ramanadheswarar Temple, Ennairam, Ennairam Main Road",605203,Tamil Nadu,centre,OpenGovernmentData,Vikravandi,,,,,,,,Primary Health Centre,,,,,,,,,,,,,,,,335782.668542832,1340044.0036670018
+node,7825220331,hospital,,,Melolakkur Hospital,Viluppuram,Thondur,604203,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335457.7778234187,1364959.2929247108
+node,7262801793,,,,Muppuli PHC,Viluppuram,"Main Road, Muppuli, Government Hospital Road",604302,Tamil Nadu,centre,OpenGovernmentData,Mailam,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,346441.45366179175,1348235.16472446
+node,7262801841,,,,Rettanai PHC,Viluppuram,"Main Road, Rettanai, Government Hospital Road",604306,Tamil Nadu,centre,OpenGovernmentData,Mailam,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,342482.6016845603,1349124.338689482
+node,6928756291,hospital,,,Dr. Ramadoss Hospital,Villupuram,"#229,J.N. Street",604001,Tamil Nadu,hospital,OpenGovernmentData,,,,,,,,,,,,,,,,,,,,,,,,,353117.46279601107,1352276.0184323434
+node,7825220334,hospital,,,Orthodontic and Dental Hospital,Viluppuram,Tindivanam,604001,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,353035.15205239924,1352385.8568122543
+node,7825220385,hospital,,,Dr.Sampath's Diabetes and General Health Care Centere,Viluppuram,Tindivanam,604001,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,353050.76430713956,1352403.2774416893
+node,7262801891,hospital,,,Uma Hospital,Viluppuram,"1B, Kulakkarai Street,Tindivanam, Tindivanam",604001,Tamil Nadu,hospital,OpenGovernmentData,Tindivanam Mpty,,,,,,,,,Tindivanam,,,,,,,,,,,,,,,353139.9758190748,1352461.842732511
+node,7825220384,clinic,,,Bharathi Homeopathi Clinic,Viluppuram,Tindivanam,604001,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,353076.9174584715,1353099.7848253006
+node,7825220374,hospital,,,Dr. Thambirajah Hospital,Viluppuram,Tindivanam,604001,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,353082.9627863009,1353118.6580073403
+node,7825220389,hospital,,,Deepham Hospital,Viluppuram,"Roshanai, Tindivanam",604001,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,352879.4620011131,1353283.3799060644
+node,7825220316,clinic,,,Saranya Skin Care Clinic,Viluppuram,Tindivanam,604001,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,353023.75497712736,1353405.391906515
+node,7825220340,hospital,,,i-MED Super Speciality Hospital,Viluppuram,"Wahab Nagar, Tindivanam",604001,Tamil Nadu,,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,353967.6686486099,1351121.581439686
+node,7262801819,hospital,,,St.Josep Hospital,Viluppuram,"Near Police Quarter, Tindivanam, Jayapuram,Tindivanam",604001,Tamil Nadu,,OpenGovernmentData,Tindivanam Mpty,,,,,,,,,Tindivanam,,,,,,,,,,,,,,,353634.76337645296,1351163.7179293393
+node,7825220373,,,,Urban Primary Health Centre,Viluppuram,"Jayapuram, Tindivanam",604001,Tamil Nadu,centre,Local Knowledge,,,,,,,,,Urban Primary Health Centre,,,,,,,,,,,,,,,,353357.1152608353,1351384.3297282693
+node,7825220329,clinic,,,Annai Clinic,Viluppuram,Viluppuram,604001,Tamil Nadu,,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,353622.7781663429,1351462.2267318517
+node,7825220351,hospital,,,Maternity Hospital,Viluppuram,Tindivanam,604001,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,353146.4061048415,1352457.5742335755
+node,7825220318,clinic,,,Prabavathi Clinic,Viluppuram,"Rajaji Street, Tindivanam",604001,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,353251.74579879706,1352475.7195668812
+node,7825220344,hospital,,,C.R. Women and Child Health Centre,Viluppuram,"Rajaji Street, Tindivanam",604001,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,353342.52170519216,1352483.7838175234
+node,7825220335,hospital,,,Sakthi Child Hospital,Viluppuram,"Murungapakkam, Tindivanam",604001,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,353384.115133112,1352507.955042779
+node,7825220358,hospital,,,Royar Hospital,Viluppuram,Tindivanam,604001,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,353393.11529937154,1352547.7963877732
+node,7825220386,clinic,,,Mars Health Clinic,Viluppuram,"Murungapakkam, Tindivanam",604001,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,353322.9090520849,1353044.9766259475
+node,7825220355,hospital,,,Varun Fertility and Maternity Hospital,Viluppuram,"Murungapakkam, Tindivanam",604001,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,353311.9874158599,1353084.4749100015
+node,7262801775,hospital,,,Tindivanam Government Hospital,Viluppuram,"Government Hospital Tindivanam, Urban Bank, Tindivanam, Government Hospitalanthi Street",604001,Tamil Nadu,hospital,OpenGovernmentData,Olakkur,,,,,,,,,Tindivanam,,,,,,,,,,,,,,,353321.03892144747,1353544.4599130792
+node,7262801843,,,,"PHC, Avanipur",Viluppuram,"Near Senthamangalam Bala Murugan Temple, Villupuram",604101,Tamil Nadu,centre,OpenGovernmentData,Olakkur,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,371197.0820922251,1357155.2555432557
+node,7262801893,,,,Saram PHC,Viluppuram,"Saram PHC, BDO office, Saram Village, NH45 main Road",604307,Tamil Nadu,centre,OpenGovernmentData,Olakkur,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,358590.39101283904,1357654.3496192696
+node,7262801809,,,,Olakkur PHC,Viluppuram,"Railway Station, Saram Village, S.Kadur Road",604305,Tamil Nadu,centre,OpenGovernmentData,Olakkur,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,360907.6983739863,1360455.2674834987
+node,7262801796,,,,Melsithamur CHC,Viluppuram,"Melsithamur CHC, Melsithamur, Vallam, Vallam Melsithamur Main Road",604206,Tamil Nadu,centre,OpenGovernmentData,Vallam,,,,,,,,Community Health Centre,Gingee,,,,,,,,,,,,,,,338521.59279513755,1355710.9176616939
+node,7262801785,,,,Mannampoondi PHC,Viluppuram,"Opp Middle School, Mannampoondi, Main Road Mannampoondi",604207,Tamil Nadu,centre,OpenGovernmentData,Mailam,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,343261.13731336826,1358610.0983750082
+node,7262801795,,,,Viranamur PHC,Viluppuram,"Vinayagar Koil Street, Viranamur",604203,Tamil Nadu,centre,OpenGovernmentData,Vallam,,,,,,,,Primary Health Centre,Gingee,,,,,,,,,,,,,,,338016.1295538662,1364058.229551698
+node,7262801768,,,,Vellimedupettai PHC,Viluppuram,"Vellimedupettai PHC, Police Station, Vellimedu, Medu Street",604207,Tamil Nadu,centre,OpenGovernmentData,Olakkur,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,346166.8334998341,1364581.4726395991
+node,7262801763,,,,"PHC, Dhadhapuram",Viluppuram,"Dhadhapuram Phc, School, Kizmalayanur, Kizmalayanur Street",604207,Tamil Nadu,centre,OpenGovernmentData,Olakkur,,,,,,,,Primary Health Centre,Tindivanam,,,,,,,,,,,,,,,349644.3560600627,1364987.5370361889
+node,5692205263,clinic,,,Government Health Sub Center,,,,,centre,,,,,,,,,,,,,,,,,,,,,,,,,,343822.2140462429,1365940.1589985113
+node,7262595419,,,,"PHC, Kandamanadi",Viluppuram,"School Land Mark, Kandamanadi Village, Kandamanadi( Main Road)",605401,Tamil Nadu,centre,OpenGovernmentData,Koliyanur,,,,,,,,Primary Health Centre,,,,,,,,,,,,,,,,333716.39113218803,1315409.6713440914
+node,7825220352,clinic,,,Sashi Clinic,Viluppuram,K K Nagar,605602,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,334804.37857421086,1319105.9987153204
+node,7825220359,hospital,,,Selvaraj Hospital,Viluppuram,"K K Nagar, Puntottam",605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,334994.4400468779,1319143.199072022
+node,7210874273,hospital,,,South Zone Ent Research Centre,Villupuram,"Moovendar Nagar, Viluppuram",605602,Tamil Nadu,hospital,OpenGovernmentData,,,,,,,,,,,,,,,,,,,,,,,,,334544.0226068311,1319155.5431628532
+node,7825220380,clinic,,,K.M. Arokkya Herbal Clinic,Viluppuram,,605602,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335022.32774146966,1319271.2067589497
+node,7183840091,hospital,,04146 259 194,South Zone Ent Research Centre,,,605602,,hospital,,,Villupuram,Moovendar Nagar,,,,,,,,,,,,,,,,,,,,,,334514.0623560136,1319283.6355690442
+node,7825220379,clinic,,,Dr.K. Vinoth Clinic,Viluppuram,Poointhamalli,605602,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,334918.12725477153,1319336.4651158184
+node,7825220326,hospital,,,RJR Hospital,Viluppuram,"K K Nagar, Puntottam",605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335109.4249201293,1319362.9847547393
+node,7825220341,hospital,,,Sri Ranga Hospital,Viluppuram,Sudhakar Nagar,605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335034.90396214667,1319401.853398971
+node,6237476452,,,,villianur phc,,,,,centre,,,,,,,,,,,,,,,,,,,,,,,,,,321984.8195328187,1318858.4952675418
+node,7262595377,hospital,,,"Government Hospital, Arcadu",Vellore,"Near St.Marry Church, Arcadu",605755,Tamil Nadu,,OpenGovernmentData,Arcot Mpty,,,,,,,,,Arcot,,,,,,,,,,,,,,,317540.34231191105,1319462.1297232264
+node,7262595408,,,,Mugaiyur PHC,Viluppuram,"Indain Overseas Bank, Primary Health Centre Mugaiyur, Thirukoilur Main Road",605755,Tamil Nadu,centre,OpenGovernmentData,Mugaiyur,,,,,,,,Primary Health Center,Tirukkoyilur,,,,,,,,,,,,,,,315596.53280778753,1324545.9409725394
+node,7825220323,hospital,,,Sundara Pandian Bone and Joint Hospital,Viluppuram,"Sudhakar Nagar, K K Nagar",605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335033.28972515557,1319407.4372910724
+node,7825220346,hospital,,,Apollo Hospitals,Viluppuram,"Sudhakar Nagar, K K Nagar",605602,Tamil Nadu,hospital,Local Knowledge,,,,,,Apollo Hospitals,private,Q4780321,,,en:Apollo Hospitals,,,,,,,,,,,,,,335167.8174177244,1319428.3828822735
+node,7825220327,hospital,,,Sivanandhammal Siddha Hospital,Viluppuram,Sudhakar Nagar,605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335144.378800109,1319434.7275751818
+node,7825220345,clinic,,,Sri Kumaran Physiotherapy and Peadiatric Clinic,Viluppuram,,605602,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335164.783222307,1319437.2377038023
+node,7262595456,,,,Thogaipadi PHC,Viluppuram,"Main Road Bus Stop, Thogaipadi Village, Thogaipadi(Main Road)",605301,Tamil Nadu,centre,OpenGovernmentData,Koliyanur,,,,,,,,Primary Health Centre,,,,,,,,,,,,,,,,330893.9319010939,1319459.9983750805
+node,7825220337,hospital,,,Villupuram Herbocare Hospital,Viluppuram,"K K Nagar, Puntottam",605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335097.2261410777,1319506.631470513
+node,7825220361,hospital,,,RK Eye Hospital,Viluppuram,Moovendar Nagar,605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,334742.8944693112,1319773.0765142494
+node,6926112606,hospital,,,E.S. Hospital,Villupuram,"No: 32-B, Trichy Trunk Road;32 B, Near Raghamad Complex, Villupuram, Trichy Main Road ,Villupuram",605602,Tamil Nadu,hospital,OpenGovernmentData,Villupuram Mpty,,,,,,,,,,,,,,,,,,,,,,,,335016.9288166519,1319988.9156384023
+node,7825220392,hospital,,,Royal Hospital,Viluppuram,K K Nagar,605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335079.6446114784,1320050.3076504567
+node,3979120939,hospital,,,Ananada Hospital,Villupuram,"# 37, Trichy Main Road",605602,Tamil Nadu,hospital,OpenGovernmentData,,,,,,,,,,,,,,,,,,,,,,,,,335070.4191596103,1320177.8214197431
+node,7825220372,clinic,,,Krishna Clinic,Viluppuram,"Ganapathy Nagar, K K Nagar",605602,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335375.9899136581,1319481.4815000284
+node,7825220315,hospital,,,Om Murugan Siddha Hospital,Viluppuram,,605602,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335178.3922550292,1320018.142582024
+node,5234571710,hospital,,,narayana hospital,,,,,hospital,,,,,,,,,,,,,,,,,,,,,,,,,,335872.10143094347,1320154.952343231
+node,7825220353,clinic,,,Palaniraj Clinic,Viluppuram,K K Nagar,605602,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335299.6239423094,1320165.8831381705
+node,5234972811,hospital,,,suganthi skin specialist,,,,,hospital,,,,,,,,,,,,,,,,,,,,,,,,,,335852.6825668587,1320171.307542129
+node,5234972810,hospital,,,hariprasath hospital,,,,,hospital,,,,,,,,,,,,,,,,,,,,,,,,,,335866.8037477796,1320188.2213050837
+node,7825220388,clinic,,,Nalam Kidney Centre,Viluppuram,K K Nagar,605602,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335537.14437736874,1320216.7644648792
+node,7825220367,clinic,,,Parvathi Women Centre,Viluppuram,"Chairman Chidam, K K Nagar",605602,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335275.7711568804,1320235.8787091062
+node,6928805899,hospital,,,Jayasankara Hindu Mission Hospital,Viluppuram,"Poonthottam High School, Villupuram, Poonthottam Pattai",605602,Tamil Nadu,hospital,OpenGovernmentData,,,,,,,,,,,,,,,,,,,,,,,,,335556.1353540269,1320251.8036636242
+node,6934056512,hospital,,,Sri Bharani Hospital,Villupuram,"#5, Chariraman Subbarayar Street,62, Nehruji Road,West Shanmugapuram, Opposite West Police Station, Near Icici Bank",605602,Tamil Nadu,hospital,OpenGovernmentData,,,,,,,,,,,,,,,,,,,,,,,,,335251.9091144152,1320270.2669599352
+node,5235085836,hospital,,,arul selvan,,,,,hospital,,,,,,,,,,,,,,,,,,,,,,,,,,335303.8592432024,1320301.1659057045
+node,7825220339,clinic,,,Jessly Eye Clinic,Viluppuram,Viluppuram,605602,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335560.9285710623,1320307.8488836368
+node,5235085835,hospital,,,hindhumachine,,,,,hospital,,,,,,,,,,,,,,,,,,,,,,,,,,335303.3122905355,1320308.7129276113
+node,5235085837,hospital,,,arumugan eye care,,,,,hospital,,,,,,,,,,,,,,,,,,,,,,,,,,335301.6205168096,1320320.038220207
+node,2515199509,hospital,,yes,Koti Orthopaedic And Trauma Care Speciality Hospital,Villupuram,"3,14,15 Chairman Chidambaram Street",605602,Tamil Nadu,hospital,OpenGovernmentData,,,,,,,,,,,,,,,,,,,,,,,,,335281.93710681447,1320321.7939279946
+node,3979120938,hospital,,,Indumission Hospital,,,,,hospital,,,,,,,,,,,,,,,,,,,,,,,,,,335563.08224971406,1320329.2745612608
+node,2441744044,hospital,,,Hari Hospital,Viluppuram,"Near Govt.Hospital Signal,Villupuram, Villupuram, Trichy Main Road ,Villupuram",605602,Tamil Nadu,hospital,OpenGovernmentData,Villupuram Mpty,,,,,,,,,,,,,,,,,,,,,,,,335176.6085887413,1320333.486471366
+node,2515197162,hospital,,no,Aravinda Institute of Paramedical Sciences,,,,,hospital,,,,,,,,,,,,,,,,,,,,,,,,,,335284.1354160864,1320349.3585748705
+node,6930048867,clinic,,,Sumathi Nursing Home,Villupuram,"# 791, Nehruji Road,Near Old Bus Stand",605602,Tamil Nadu,clinic,OpenGovernmentData,,,,,,,,,,,,,,,,,,,,,,,,,335544.0638989972,1320351.1143770434
+node,7262595345,hospital,,,Bharani Hospital,Viluppuram,"Near Sub-Post Office, Thiru Vi Ka Street, Viluppuram",605602,Tamil Nadu,hospital,OpenGovernmentData,Villupuram Mpty,,,,,,,,,,,,,,,,,,,,,,,,335466.53640901286,1320361.581303392
+node,7262595353,hospital,,,Sumathy Hospital,Viluppuram,"Near To Indian Bank, Villupuram, Nehruji Road,Villupuram",605602,Tamil Nadu,hospital,OpenGovernmentData,Villupuram Mpty,,,,,,,,,,,,,,,,,,,,,,,,334393.43831319525,1320196.33223024
+node,6933833934,hospital,,,"Laxmi Hospital, Villupuram",Viluppuram,"Opposite To Canara Bank,Villupuram, Villupuram, Trichy Main Road ,Villupuram",605602,Tamil Nadu,hospital,OpenGovernmentData,Villupuram Mpty,,,,,,,,,,,,,,,,,,,,,,,,335074.06166201504,1320220.4662583026
+node,7825220324,clinic,,,Tamilnadu Multispeciality Clinic,Viluppuram,,605602,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,335137.3660040288,1320230.2304234162
+node,6914927164,hospital,,,Dr Agarwal's Eye Hospital,Villupuram,"19, Trichy Trunk Road",605602,Tamil Nadu,hospital,OpenGovernmentData,,,,,,Dr. Agarwal's Eye Hospital,private,Q17052044,,,,,,,,,,,,,,,,,335163.79738883267,1320265.3725554643
+node,2441739262,hospital,,,"Government Hospital, Villupuram",Viluppuram,"Villupuram Government Hospital, Villupuram Signal, Villupuram, Chennai Main Road",605602,Tamil Nadu,hospital,OpenGovernmentData,,,,,,,,,,,,,,,,,,,,,,,,,335150.24434764584,1320539.6979351386
+node,7262595420,,,,Villupuram PHC,Viluppuram,"Maternity Centre Building, Municipal Office, Villupuram, Pondy Main Road",605602,Tamil Nadu,centre,OpenGovernmentData,Villupuram Mpty,,,,,,,,Primary Health Centre,,,,,,,,,,,,,,,,335166.6986689126,1320548.999296498
+node,7262595446,,,,"PHC, Kanai",Viluppuram,"Vpm Road, Kanai, Therkku Street",605301,Tamil Nadu,centre,OpenGovernmentData,Kanai,,,,,,,,Primary Health Centre,,,,,,,,,,,,,,,,327852.84539103764,1321810.834531823
+node,7262801853,,,,Ottampattu PHC,Viluppuram,"Ottampattu PHC, Middle School, Thiruvathigunam, Villupuram-Gingee Main Road",604205,Tamil Nadu,centre,OpenGovernmentData,,,,,,,,,Primary Health Centre,Gingee,,,,,,,,,,,,,,,329295.60016493,1343791.6945024936
+node,7262801815,hospital,,,"Government Hospital, Keezh Mambattu",Viluppuram,"Keezh Mambattu - Kalladikuppam Rd, Keezh Mampattu",605651,Tamil Nadu,,OpenGovernmentData,Vallam,,,,,,,,,Gingee,,,,,,,,,,,,,,,335092.3429321506,1347158.1437741732
+node,2660625911,hospital,,yes,Government Hospital,,,604202,,hospital,,,Gingee,Tindivanam Road,,,,,,,,,,,,,,,,,,,,,,328080.35045454896,1354906.3776997572
+node,2039957464,hospital,Goverment Hospital,yes,Goverment Hospital Kedar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,326884.0125925824,1328116.0513318968
+node,7262595451,,,,"PHC, Kedar",Viluppuram,"Near Government Higher Secondary School, Kedar",605402,Tamil Nadu,centre,OpenGovernmentData,Kanai,,,,,,,,Primary Health Centre,,,,,,,,,,,,,,,,326898.00126576354,1328147.29839233
+node,7262595365,,,,"PHC, Kandachipuram",Viluppuram,"Primary Health Centre Kandachipuram, Thirukoilur Main Road",605751,Tamil Nadu,centre,OpenGovernmentData,Mugaiyur,,,,,,,,Primary Health Centre,Tirukkoyilur,,,,,,,,,,,,,,,314558.45613267564,1330866.2355726338
+node,7262595388,,,,Veerapandy PHC,Viluppuram,"Primary Health Centre Veerapandy, Vettavalam Main Road",605758,Tamil Nadu,centre,OpenGovernmentData,Mugaiyur,,,,,,,,Primary Health Centre,Tirukkoyilur,,,,,,,,,,,,,,,305975.5477248831,1332608.0929797583
+node,7262595355,hospital,,,"Government Hospital, Anniyur",Viluppuram,"Near Sub Registar Office, Anniyur",605701,Tamil Nadu,,OpenGovernmentData,Kanai,,,,,,,,,,,,,,,,,,,,,,,,324895.1595468244,1335240.471418164
+node,7262595406,hospital,,,"Government Hospital, Old Karuvatchi",Viluppuram,"Udayanatham Main Road, Indira Nagar, Karuvakshi",605201,Tamil Nadu,,OpenGovernmentData,Kanai,,,,,,,,,,,,,,,,,,,,,,,,320300.0713408211,1335255.4535000455
+node,7825220375,hospital,,,Government Hospital,Viluppuram,Ananthapuram,605201,Tamil Nadu,,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,324156.93984047195,1340250.3449368975
+node,7262801877,,,,"PHC, Gengavaram GH",Viluppuram,"Gangavaram Phc, Opp-Ele. School, Ka.Kuppam, Main Road",604151,Tamil Nadu,centre,OpenGovernmentData,,,,,,,,,Primary Health Centre,Gingee,,,,அரசு ஆரம்ப சுகாதார நிலையம் கெங்கவரம்,,,,,,,,,,,317753.44650672656,1343026.1172394194
+node,7262801846,hospital,,,N.P.Petral Government Hospital,Viluppuram,"Nallanpillai Petral Hsc, End Of The Village, Puthagaramn, Kulakkarai St",604152,Tamil Nadu,,OpenGovernmentData,,,,,,,,,,Gingee,,,,,,,,,,,,,,,309934.62307135673,1348427.0121136506
+node,7262801779,,,,Sathyamangalam PHC,Viluppuram,"Nearest Iob Bank, Nearest Alampoondi, Gingee-Tvm Main Road",604153,Tamil Nadu,centre,OpenGovernmentData,,,,,,,,,Primary Health Center,Gingee,,,,,,,,,,,,,,,315995.75069049565,1353753.31107488
+node,7825220363,,,,Primary Health Centre,Viluppuram,"Alampoondi, Viluppuram",604151,Tamil Nadu,centre,Local Knowledge,,,,,,,,,Primary Health Centre,,,,,,,,,,,,,,,,318780.6121057356,1354495.1505358715
+node,7825220336,clinic,,,Krishna ENT Clinic,Viluppuram,"Gandhi Bazaar, Gingee",604202,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,327768.8045886799,1354820.933516645
+node,2510264839,hospital,,yes,Suriya Hospital,,,604202,,hospital,,,Gingee,Thiruvannamalai Road,,,,,,,,,,,,,,,,,,,,,,327682.80762423784,1354979.9934452039
+node,2663407740,clinic,,,Vishnu,,,604202,,clinic,,,Gingee,Thiruvannamalai Road,,,,,,,,,,Sri Vishnu Sugasthala,,,,,,,,,,,,327632.0779554745,1354987.9352683553
+node,2660640354,hospital,,,P.R.G Hospital,,,604202,,hospital,,,Gingee,Thiruvannamalai Road,,,,,,,,,,,,,,,,,,,,,,327465.4524546593,1355010.0761615103
+node,7825220377,clinic,,,Jayaram Clinic,Viluppuram,"Thalavanur, Gingee",604202,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,327599.97446145857,1355040.3155344613
+node,7825220317,hospital,,,Dr. Kalaimani Hospital,Viluppuram,"Thalavanur, Gingee",604202,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,327572.82837770914,1355056.8360547607
+node,7825220332,clinic,,,Sri Sai Siddha Clinic,Viluppuram,,604202,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,327411.7033848056,1355079.9627323563
+node,7825220364,clinic,,,Sanjeevi Clinic,Viluppuram,"Periyagaram, Gingee",604202,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,327791.8159252149,1355534.9777777276
+node,2661444735,clinic,,,,,,604202,,clinic,,,Gingee,Krishnapuram,,,,,,,,,24/7,,,,,,,,,,,,,327253.4268839203,1355893.783556221
+node,7262801855,hospital,,,Gingee Government Hospital,Viluppuram,Gingee,604202,Tamil Nadu,hospital,OpenGovernmentData,,,,,,,,,,Gingee,,,,,,,,,,,,,,,328113.993917417,1354906.8776371952
+node,7825220369,hospital,,,Subrayan Hospital,Viluppuram,Gingee,604202,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,328009.2621029635,1354988.2121619529
+node,7825220382,clinic,,,Malar Clinic,Viluppuram,Gingee,604202,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,327835.84863398067,1355249.8331578895
+node,7825220356,clinic,,,Subham Clinic,Viluppuram,Gingee,604202,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,327935.7438074765,1355273.5069094556
+node,7825220343,clinic,,,Raja Clinic,Viluppuram,Gingee,604202,Tamil Nadu,clinic,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,327798.22260966466,1355314.0822151147
+node,7825220348,hospital,,,Aravind Eye Hospital,Viluppuram,Gingee,604202,Tamil Nadu,hospital,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,327823.4491581338,1355647.2731962127
+node,7825220390,hospital,,,Sree Venkateshwara Hospital,Viluppuram,Avalurpettai,604201,Tamil Nadu,,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,309007.39687118435,1364536.0246044882
+node,7825220342,clinic,,,Dhanusri Clinic,Viluppuram,"Keaklur, Avalurpettai",604201,Tamil Nadu,,Local Knowledge,,,,,,,,,,,,,,,,,,,,,,,,,308750.16304285626,1364554.8372879266
+node,7262801822,,,,Melmalayanur PHC,Viluppuram,"Yerikarai, Thayanur, Yerikarai Street",604204,Tamil Nadu,centre,OpenGovernmentData,Melmalayanur,,,,,,,,Primary Health Centre,Gingee,,,,,,,,,,,,,,,317551.3248498951,1364664.5932450597
+node,7262801816,,,,"PHC, Avalurpet",Viluppuram,"Murugan Temple, Avalurpettai",604201,Tamil Nadu,centre,OpenGovernmentData,Melmalayanur,,,,,,,,Primary Health Centre,Gingee,,,,,,,,,,,,,,,309230.10131236096,1365043.2121783616
+node,7262801847,hospital,,,"Government Hospital, Valathy",Viluppuram,"Post Office, Kannalam, Post Office Street",604208,Tamil Nadu,,OpenGovernmentData,Melmalayanur,,,,,,,,,Gingee,,,,,,,,,,,,,,,323823.9266632334,1365542.1774122438
+node,7262801875,,,,Melsevalampadi PHC,Viluppuram,"Government High School, Eyyil, Main Road",604204,Tamil Nadu,centre,OpenGovernmentData,Melmalayanur,,,,,,,,Primary Health Centre,Gingee,,,,,,,,,,,,,,,315868.75785433484,1372838.7048270197
